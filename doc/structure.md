@@ -9,6 +9,7 @@ Missofis Front-End Templates' __assets__ folder holds all assets of project. __d
         * __css__
             * __main.css__ _compiled and preferably compressed version of less/main.less styles file_
         * __img__ _images, svgs, ... all type of media goes here_
+        * __fonts__ __fonts__ _copy webfonts here @see [\_\_fonts.less](../assets/less/\_\_fonts.less)_
         * __js__ _user scripts_
             * __main.js__ _user scripts_
             * __plugins.js__ _vendor plugins, copy & paste_
@@ -34,6 +35,7 @@ Missofis Front-End Templates' __assets__ folder holds all assets of project. __d
             * __main.less__ _@imports other less files into thi single file_
     * __doc__ _documentation for templates and usage_
     * __dev__ _development helpers, debuggers etc._
+        * __console.helper.js__ _console.log error blocker for console unsupported browsers from html5boilerplate_
     * __index.html__ (blank generic template)
     * __README.md__ (this markdown file)
     
