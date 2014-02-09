@@ -18,24 +18,12 @@ TODO:
  *   1.4 - FONTS
  * 2.0 - SITE & GENERIC
  *   2.1 - Z-INDEX CONTROL
- * 3.0 - NAVIGATION (MAIN)
- * 4.0 - FOOTER
- * 5.0 - GRID
- * 6.0 - CONTENT(S)
- *   6.1 - DEFAULT & ARCHIVE CONTENT (INDEX.PHP, ARCHIVE.PHP)
- *   6.2 - MOVIE (SINGLE POST)
- *   6.3 - NO POSTS CONTENT (CONTENT-NOPOST.PHP)
- *   6.4 - SINGLE POST (SINGLE.PHP)
- *   6.5 - PAGE (PAGE.PHP)
- *   6.6 - INDEX PAGE (PAGE-MOVIE.PHP)
- *   6.7 - 404 PAGE (404.PHP)
- *   6.8 - ARCHIVE CONTENTS (ARCHIVE.PHP)
- *   6.9 - AUTHOR PAGE (SINGLE-SF_AUTHOR.PHP)
- *   6.10 - ABOUT PAGE (PAGE-ABOUT.PHP, PAGE-CONTACT.PHP)
- * 7.0 - HEADER
- * 8.0 - PAGING NAVIGATION
- * 9.0 - OTHER
- *   9.1 - MODERNIZR OVERRIDES
+ * 3.0 - CONTENT(S)
+ *   3.1 - HEADER
+ *     3.1.1 - NAVIGATION (MAIN)  
+ *   3.2 - CONTENT
+ *   3.3 - FOOTER
+ * 4.0 - OTHER
  * ---------------------------------------------------------------------------
  */
 
@@ -81,7 +69,7 @@ TODO:
  * ---------------------------------------------------------------------------
  */
 
-//@width-content: 740px;
+@width-content: 960px;
 
 
 
@@ -95,12 +83,95 @@ TODO:
 
 
 
+/*
+ * ---------------------------------------------------------------------------
+ * 2.0 SITE & GENERIC
+ * ---------------------------------------------------------------------------
+ */
 
+// reset box sizing, @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*, *:before, *:after { .box-sizing( border-box ); }
 
+// Override content-box in Normalize (* isn't specific enough) (from bootstrap)
+input[ type="search" ] { .box-sizing( border-box ); }
 
+//
 body {
 
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	font-size: @font-size-base;
 
 }
+
+/*
+ * ---------------------------------------------------------------------------
+ * 2.1 Z-INDEX CONTROL
+ * ---------------------------------------------------------------------------
+ */
+
+// #main-wrapper { z-index: 900; }
+#site-header { z-index: 900; }
+#site-content { z-index: 300; }
+#site-footer { z-index: 600; }
+
+
+/*
+ * ---------------------------------------------------------------------------
+ * 3.0 CONTENT(S)
+ * ---------------------------------------------------------------------------
+ */
+
+#main-wrapper,
+#site-header,
+#site-content,
+#site-footer {
+
+	position: relative; // for z-index controls
+
+}
+
+#main-wrapper {
+
+	width: @width-content;
+	.margin-centered;
+
+}
+
+
+
+
+/*
+ * ---------------------------------------------------------------------------
+ * 3.1 HEADER
+ * ---------------------------------------------------------------------------
+ */
+
+/*
+ * ---------------------------------------------------------------------------
+ * 3.1.1 NAVIGATION (MAIN)
+ * ---------------------------------------------------------------------------
+ */
+
+
+/*
+ * ---------------------------------------------------------------------------
+ * 3.2 CONTENT
+ * ---------------------------------------------------------------------------
+ */
+
+
+
+
+
+
+/*
+ * ---------------------------------------------------------------------------
+ * 3.3 SITE FOOTER
+ * ---------------------------------------------------------------------------
+ */
+
+/*
+ * ---------------------------------------------------------------------------
+ * 4.0 OTHER
+ * ---------------------------------------------------------------------------
+ */
