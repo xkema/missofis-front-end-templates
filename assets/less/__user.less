@@ -45,9 +45,8 @@ TODO:
 
 @color-text: #222222;
 
-@width-content: 720px;
+@color-link-default: #EC0D3A;
 
-@font-size-base: 16px;
 
 
 
@@ -69,6 +68,8 @@ TODO:
  * ---------------------------------------------------------------------------
  */
 
+@width-wrapper: 1280px;
+
 @width-content: 960px;
 
 
@@ -79,7 +80,7 @@ TODO:
  * ---------------------------------------------------------------------------
  */
 
-
+@font-size-base: 12px;
 
 
 
@@ -100,6 +101,18 @@ body {
 
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	font-size: @font-size-base;
+
+}
+
+a {
+
+	color: @color-link-default;
+
+	&:hover {
+
+		color: @color-link-default + #43210a;
+
+	}
 
 }
 
@@ -132,11 +145,17 @@ body {
 
 #main-wrapper {
 
-	width: @width-content;
+	width: @width-wrapper;
 	.margin-centered;
 
 }
 
+#site-content {
+
+	// width: @width-content;
+	.margin-centered;
+
+}
 
 
 
