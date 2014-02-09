@@ -1,4 +1,4 @@
-// main script file
+// particles script file
 
 
 // DOM-ready events
