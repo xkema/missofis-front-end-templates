@@ -8,9 +8,21 @@ Main purpose of Particals Branch is to provide an abstraction for maintained old
 
 ### The Logic
 
-Particles maintaining behaviour follows a basic logic:
+When maintaining a website that you do not design it's structure follow this flow with particles logic:
+
+1. Find the part of HTML markup that your customer wants to be revised 
+2. From the deepest element start to step up HTML tags until you find a correct markuped and styled block.
+
+    > If we're responsible for changing a background image of a navigation link this correct block is probably an `<a>` element and we do not have to step up outer blocks
+    
+    > If we're dealing with a corrupted navigation itself, probably our target block is whole navigation holder block. (like _`#corrupted-nav-block-to-be-replaced-with-particles`_)
+3. Replace _.class_ and _#id_'s with particles prefix you choose
+4. Re-style and test new block
+
+Particles maintaining behaviour follows these steps:
 
 * add a semantic wrapper CSS class like `.prtcl-main-nav` to current particle (ie. new navigation of site)
+    * `main-nav` is old _.class_ or _#id_ name. Use a `prtcl`-like prefix as a namespace.
 * select inner elements of `.prtcl-main-nav` class with CSS selectors (like `.prtcl-main-nav ul li`)
 * write new styles of element
 * test & publish
