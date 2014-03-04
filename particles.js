@@ -10,8 +10,8 @@ $(document).ready(function () {
 });
 
 
-// WINDOW-ready events
-$(window).ready(function () {
+// WINDOW-load events
+$(window).load(function () {
 
     //
 

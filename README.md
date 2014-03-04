@@ -6,6 +6,8 @@ Particals Branch is added to template to maintain other developers' websites. Us
 
 Main purpose of Particals Branch is to provide an abstraction for maintained old f*ckin' websites, projects.
 
+> Particles sınıflarını `<html>` içine nasıl import edeceğini de yaz dokümanlara. 
+
 ### The Logic
 
 When maintaining a website that you do not design it's structure follow this flow with particles logic:
