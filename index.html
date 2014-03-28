@@ -20,7 +20,9 @@
 	
 	<!-- PRODUCTION ENVIRONMENT, REMOVE at live -->
 	<link rel="stylesheet/less" type="text/css" href="assets/less/main.less">
-	<!-- <script src="assets/js/lib/less-1.6.0.min.js"></script> -->
+	<script>less = { logLevel: 1 };</script> <!-- lower the less logging level (cleanup the console) -->
+	<script src="assets/js/lib/less-1.6.0.min.js"></script>
+
 	<script src="dev/console.helper.js"></script>
 	<!-- END::PRODUCTION ENVIRONMENT, REMOVE at live -->
 
@@ -68,9 +70,10 @@
 	</div><!-- end#main-wrapper -->
 	
 	<!-- site scripts block -->
-	<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="assets/js/lib/jquery-1.10.2.min.js"><\/script>')</script>
 	<script src="assets/js/plugins.js"></script>
+	<!-- <script src="assets/js/canvasdriver.js"></script> -->
 	<script src="assets/js/main.js"></script>
 
 	<!-- add google analytics code -->

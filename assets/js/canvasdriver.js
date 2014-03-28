@@ -1,0 +1,1 @@
+// scripts for HTML5 canvas elements
