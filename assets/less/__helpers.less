@@ -115,3 +115,63 @@ CSS Helper Classes */
 // .clearfix {
 //     *zoom: 1;
 // }
+
+/*
+ * Notes for developers
+ *
+ * Use 2-level markup like:
+ *
+ *     {{ NOTES }}
+ *     <EL class="devnote">
+ *         <EL class="detail">{{ NOTE_DETAILS_COLORED }}</EL>
+ *     </EL>
+ *     {{ NOTES_CONTINUES }}
+ *
+ * Styles defined w|!important keyword to override user or browser styles
+ * 
+ * Bunu sonra javascript plugin'i yap.
+ */
+.devnote {
+
+    font-size: 12px !important;
+    font-style: italic !important;
+    color: #b3b3b3 !important;
+    display: block !important;
+
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    
+    padding: 8px !important;
+    background-color: #f8f8f8 !important;
+    .gradient( #fafafa, #f0f0f0, #fafafa );
+    .drop-shadow( 0px, 1px, 2px, 0.40 );
+    .rounded( 2px );
+    border: 1px solid #eeeeee;
+    z-index: 999999 !important;
+
+    &.floating {
+
+        min-width: 220px !important;
+        max-width: 300px !important;
+        position: absolute !important;
+        left: 0% !important;
+
+        &.right {
+
+            left: 99% !important;     
+
+        }
+
+    }
+
+    .detail {
+
+        font-size: inherit !important; 
+        font-style: normal !important;
+        color: #d88398 !important;
+
+    }
+
+}

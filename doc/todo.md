@@ -17,3 +17,4 @@
 * __email.html__ (marketing email template)
 * __form.html__ (form template, works with later Missofis FormGenerator.js and Missofis FormValidator.js plugin)
 * __pagetab.html__ (facebook pagetab wrapper)
+* input[type="submit"], input[type="file"] vs.. için reset style'lar tanımla
