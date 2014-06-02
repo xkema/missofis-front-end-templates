@@ -2,18 +2,18 @@
 
 
 // DOM-ready events
-$(document).ready(function () {
+$( document ).ready( function () {
 
     //
 
 
-});
+} ); // end document.ready
 
 
 // WINDOW-load events
-$(window).load(function () {
+$( window ).load( function () {
 
     //
 
 
-});
+} ); // end window.load
