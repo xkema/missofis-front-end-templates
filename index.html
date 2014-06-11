@@ -21,7 +21,7 @@
 	<!-- PRODUCTION ENVIRONMENT, REMOVE at live -->
 	<link rel="stylesheet/less" type="text/css" href="assets/less/main.less">
 	<script>less = { logLevel: 1 };</script> <!-- lower the less logging level (cleanup the console) -->
-	<script src="assets/js/lib/less-1.6.0.min.js"></script>
+	<script src="assets/js/lib/less-1.7.1.min.js"></script>
 
 	<script src="dev/console.helper.js"></script>
 	<!-- END::PRODUCTION ENVIRONMENT, REMOVE at live -->
@@ -30,7 +30,10 @@
 
 	<!-- add all styles -->
 	<!-- <link rel="stylesheet" href="assets/css/main.css"> -->
-	
+
+	<!-- add modernizr feature detection lib -->
+	<script src="assets/js/lib/modernizr-2.8.2.min.js"></script>
+
 	<!-- facebook og tags -->
 	<!-- twitter cards -->
 </head>
@@ -69,9 +72,9 @@
 		
 	</div><!-- end#main-wrapper -->
 	
-	<!-- site scripts block -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="assets/js/lib/jquery-1.10.2.min.js"><\/script>')</script>
+	<!-- site scripts block -->	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="assets/js/lib/jquery-1.11.1.min.js"><\/script>')</script>
 	<script src="assets/js/plugins.js"></script>
 	<!-- <script src="assets/js/canvasdriver.js"></script> -->
 	<script src="assets/js/main.js"></script>
