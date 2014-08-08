@@ -1,6 +1,7 @@
 [Missofis Front-End Templates](http://missofis.com) | [Documentation Table of Contents](TOC.md)
 # TODO List
 
+* code ların kapanış taglarini "end :: açılış notu" olarak commentle
 * user style less dosyasına toc ekle
 * reposition less files @imports, consider mobile-first
 * readme doyalarını html5boilerpalte gibi geliştirebilirim, toc, birbirine bağlantılar vs..
