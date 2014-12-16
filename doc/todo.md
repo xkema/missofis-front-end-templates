@@ -5,6 +5,7 @@
 * user style less dosyasına toc ekle
 * reposition less files @imports, consider mobile-first
 * readme doyalarını html5boilerpalte gibi geliştirebilirim, toc, birbirine bağlantılar vs..
+* mixinlerie placehold.it için fonksiyon ekle
 * .
 * .placeholder ekle mizxins' e mixins.less i de güncelle aq
 * do sth.
