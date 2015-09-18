@@ -4,19 +4,19 @@
 
 Missofis LESS file structure is consist of theese LESS style files
 
-* [__normalize.less](../less/__normalize.less)
-* [__base.less](../less/__base.less)
-* [__helpers.less](../less/__helpers.less)
-* [__queries.less](../less/__queries.less)
-* [__print.less](../less/__print.less)
-* [__components.less](../less/__components.less)
-* [__data-images.less](../less/__data-images.less)
-* [__fonts.less](../less/__fonts.less)
-* [__grid.less](../less/__grid.less)
-* [__mixins.less](../less/__mixins.less)
-* [__plugins.less](../less/__plugins.less)
-* [__user.less](../less/__user.less)
-* [main.less](../less/main.less)
+* [__normalize.less](../assets/less/__normalize.less)
+* [__base.less](../assets/less/__base.less)
+* [__helpers.less](../assets/less/__helpers.less)
+* [__queries.less](../assets/less/__queries.less)
+* [__print.less](../assets/less/__print.less)
+* [__components.less](../assets/less/__components.less)
+* [__data-images.less](../assets/less/__data-images.less)
+* [__fonts.less](../assets/less/__fonts.less)
+* [__grid.less](../assets/less/__grid.less)
+* [__mixins.less](../assets/less/__mixins.less)
+* [__plugins.less](../assets/less/__plugins.less)
+* [__user.less](../assets/less/__user.less)
+* [main.less](../assets/less/main.less)
 
 ## __normalize.less
 
