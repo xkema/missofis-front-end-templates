@@ -1,4 +1,4 @@
-[Missofis Front-End Templates](http://missofis.com) | [Documentation Table of Contents](TOC.md)
+[Missofis Front-End Templates](http://missofis.com) | [Documentation Table of Contents](toc.md)
 
 # LESS files
 
